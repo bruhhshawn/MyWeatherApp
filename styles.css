@@ -1,0 +1,60 @@
+h1,
+h2 {
+  text-align: center;
+  color: black;
+}
+h2,
+h3 {
+  color: gray;
+}
+h3 {
+  font-size: small;
+}
+.weatherType {
+  color: gray;
+  font-size: small;
+}
+body {
+  text-align: center;
+}
+.search {
+  padding: 10px;
+}
+.col-12 {
+  padding: 10px;
+  color: gray;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+.location {
+  color: #fff;
+  background-color: lightskyblue;
+  border-color: darkcyan;
+  border-radius: 15px;
+}
+#currentLocation {
+  color: #fff;
+  background-color: lightskyblue;
+  border-color: darkcyan;
+  border-radius: 15px;
+}
+.location:hover {
+  color: lightskyblue;
+  background-color: white;
+  transition: all 200ms ease-in-out;
+}
+#currentLocation:hover {
+  color: lightskyblue;
+  background-color: white;
+  transition: all 200ms ease-in-out;
+}
+.container {
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 400px;
+  border-radius: 10px;
+}
